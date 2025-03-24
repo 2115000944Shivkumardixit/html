@@ -1,0 +1,52 @@
+*{
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    border-top: 15px solid salmon;
+    border-left: 15px solid slateblue;
+    border-right: 15px solid seagreen;
+    border-bottom: 15px solid crimson;
+    animation-name: bouncer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 100%;
+    animation-timing-function: linear;
+
+}
+/* @keyframes bouncer {
+    0%{
+        transform: translateY(100px);
+
+    }
+    100%{
+        transform: translate(400px);
+
+    }
+    
+} */
+
+/* rotate */
+@keyframes bouncer{
+    0%{
+        transform: translateX(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateX(430px) rotate(180deg);
+    }
+    100%{
+        transform: translateX(0px) rotate(360deg);
+    }
+
+}

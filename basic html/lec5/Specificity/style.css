@@ -1,0 +1,27 @@
+/* h1{
+    color: red;
+} */
+/* .shiv{
+    color: green; 
+}*/
+/* #shivam{
+    color: blue;
+} */
+
+/* -------------- */
+
+/* the flow of code is left to right & top to bottom */
+
+/* h1{
+    color: red;
+}
+h1{
+    color: orange;
+} */
+
+#shivam{
+    color: red;
+}
+#shivam{
+    color: black;
+}

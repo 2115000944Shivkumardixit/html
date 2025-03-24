@@ -1,0 +1,39 @@
+/* li{
+    color: red;
+} */
+
+
+/* combinators */
+/* 1. descendent */
+/* article span{
+    color: red;
+}
+article li{
+    font-size: 30px;
+} */
+/* 2. child */
+
+/* section > div span {
+    color: green;
+} */
+
+/* section  div span {
+    color: green;
+} */
+
+/* 3. Adjacent */
+
+/* div > h1 + p{
+    color: brown;
+
+} */
+
+/* 4.general  */
+div > h1 + p ~ p{
+    color: brown;
+
+}
+/* Representation: descendent" ", child ">", adjacent sibling "+", general sibling "~" */
+
+
+

@@ -1,0 +1,21 @@
+
+/* rgb */
+/* h1{
+    color: rgb(255, 0,200);
+} */
+
+/* ------------- */
+/* rgba */
+ /* h2{
+    color: rgb(255, 0, 200,0.5);
+    
+}  */
+/* hexadecimal */
+ /* h3{
+    color: #ffa957;
+}  */
+
+/* can we achieve alpha channel in hexadecimal */-->yes
+h3{
+    color: #ffa95700;
+} 
